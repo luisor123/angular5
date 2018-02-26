@@ -9,6 +9,7 @@
 <input type="text" class="form-control" [(ngModel)]="nombre" name="nombre2">
 {{nombre}}
 -->
-<div class="cabecera">Bienvenidos</div>
+<div class="cabecera">Bienvenidos{{servicio1.getNumero()}} {{numero}}</div>
+<button (click)="obtenerNumerodeServicio()">Obtener Servicio</button>
 <router-outlet></router-outlet>
 <div class="footer">footer</div>
