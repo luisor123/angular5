@@ -1,0 +1,18 @@
+.clase1{
+    background-color: #00ee00;
+    height: 300px;
+    width: 400px;
+}
+.cabecera{
+    background-color: #00ee00;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+.footer{
+    background-color: #51c5ee;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
